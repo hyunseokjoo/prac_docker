@@ -13,7 +13,7 @@ Docker에서는 Container단위로 가상화를 app을 실행하게 되는데 Co
 
 - Container
 - Image
-- Docker File
+- Docker File    
 ![docker_workflow](https://user-images.githubusercontent.com/49854618/164966561-7bfea1aa-6faa-4f74-97ad-7900509b1b60.png)
 - Container는 하나 이상의 image로 구성되어 있다.
 - Image는 Docker Hun에서 가져와 사용도 가능하고, Docker File로 Custom하여 생성, 관리, 사용이 가능하다
@@ -23,7 +23,7 @@ Docker에서는 Container단위로 가상화를 app을 실행하게 되는데 Co
 
 - Local 에서 작업 하여 Image생성
 - 해당 Image Docker Hub에 Push하여 올림
-- Server 환경에서 Pull 받아 Image를 사용한다.
+- Server 환경에서 Pull 받아 Image를 사용한다.    
 ![docker workflow2](https://user-images.githubusercontent.com/49854618/164966558-ef33d506-8270-4ac1-9545-18e1b6a13728.png)
 - Docker Hub - Git Hub와 동일한 방식인데 Repository같은 작업 공간들을 Hub에 올려 놓고 공유하거나 관리가 가능하게 만들어 놓은 공간이다. Github 처럼 web상으로 관리된다. 아래 link를 타고 들어가 확인해보자. [docker hub](https://hub.docker.com/)
 - Container Registry는 Git hub의 repository라고 생각하면 된다.
