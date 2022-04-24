@@ -1,10 +1,10 @@
 # 목차
-- [docker workFlow 이해하기](docker-workFlow-이해하기)
-- [기본 명령어 정리](기본-명령어-정리)
+- [docker workFlow 이해하기](#docker-workFlow-이해하기)
+- [기본 명령어 정리](#기본-명령어-정리)
 - docker file 작성법
 - docker compose 
 
-## docker workFlow 이해하기
+# docker workFlow 이해하기
 Docker에서는 Container단위로 가상화를 app을 실행하게 되는데 Container의 구성요소를 잘 알아야 한다. Container의 이해는 아래 링크로 확인
 
 [20분 만에 전공자처럼 도커, 가상화 이해하기!](https://www.youtube.com/watch?v=zh0OMXg2Kog&list=WL&index=21&t=431s)
