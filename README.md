@@ -2,6 +2,7 @@
 - [docker workFlow 이해하기](#docker-workFlow-이해하기)
 - [기본 명령어 정리](#기본-명령어-정리)
 - [docker file 작성법](#DockerFile-작성법)
+- [docker Hub에 푸쉬하기](#Docker-Hub에-푸쉬하기)
 - docker compose 
 
 # docker workFlow 이해하기
@@ -270,4 +271,22 @@ docker build -t frontend   .
 # dockerfile 로 빌드한 이미지 실행 
 docker run --name {실행image명} -v $(pwd):{workdir} -p {입력포트}:{컨테이너내부포트} {컨테이너명}
 docker run --name front         -v $(pwd):/home/app -p 8080:8080  front-container
+```
+
+# Docker-Hub에-푸쉬하기
+
+```bash
+# docker image에 현재 까지 작업한 내용 commit하기 
+# docker commit Container Image_name:TAG
+docker commit my_Container Image:0.1
+
+# docker hub에 push하기
+# 먼저 로그인
+docker login
+
+# Docker image에 태그 달기
+docker tag Image:0.1 MyId/Image:latest
+
+# docker push하기
+docker push MyId/Image:latest
 ```
