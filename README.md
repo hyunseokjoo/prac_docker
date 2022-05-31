@@ -32,7 +32,7 @@ Docker에서는 Container단위로 가상화를 app을 실행하게 되는데 Co
 
 # 기본 명령어 정리
 - [Docker image 관련 명령어 정리 with(실습-image 생성, 실행, 종료, 삭제)](https://magpienote.tistory.com/167)
-- 
+- [Docker Container 관련 명령어 정리 with(실습 - container만들기, 종료, 삭제, 실제 주소와 마운트하기 등)](https://magpienote.tistory.com/169)
 
 
 # DockerFile 작성법
